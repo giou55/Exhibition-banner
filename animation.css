@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+/* Chrome, Safari, Opera */
+@-webkit-keyframes logo {
+    0% {left: -80px;}
+	6% {left: -80px;}
+	18% {left: 12px;}
+    100% {left: 12px;}
+}
+@keyframes logo {
+    0% {left: -80px;}
+	6% {left: -80px;}
+	18% {left: 12px;}
+    100% {left: 12px;}
+}
+@-webkit-keyframes season {
+    0% {left: 140px;}
+	23% {left: 140px;}
+	37% {left: -7px;}
+    100% {left: -7px;}
+}
+@keyframes season {
+    0% {left: 140px;}
+	23% {left: 140px;}
+	37% {left: -7px;}
+    100% {left: -7px;}
+}
+@-webkit-keyframes display {
+    0% {opacity:0;}
+	12% {opacity:0;}
+    24% {opacity:1;}
+	100% {opacity:1;}
+}
+@keyframes display {
+    0% {opacity:0;}
+	12% {opacity:0;}
+    24% {opacity:1;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes moveUp1 {
+    0% {top: 40px; opacity:0;}
+	18% {top: 40px; opacity:0;}
+	30% {top: 0; opacity:1;}
+    100% {top: 0; opacity:1;}
+}
+@keyframes moveUp1 {
+    0% {top: 40px; opacity:0;}
+	18% {top: 40px; opacity:0;}
+	30% {top: 0; opacity:1;}
+    100% {top: 0; opacity:1;}
+}
+@-webkit-keyframes moveUp2 {
+    0% {top: 40px; opacity:0;}
+	22% {top: 40px; opacity:0;}
+	34% {top: 0; opacity:1;}
+    100% {top: 0; opacity:1;}
+}
+@keyframes moveUp2 {
+    0% {top: 40px; opacity:0;}
+	22% {top: 40px; opacity:0;}
+	34% {top: 0; opacity:1;}
+    100% {top: 0; opacity:1;}
+}
+@-webkit-keyframes scroll {
+    from {left: 360px;}
+	to {left: -9500px;}
+}
+@keyframes scroll {
+    from {left: 360px;}
+	to {left: -9500px;}
+}

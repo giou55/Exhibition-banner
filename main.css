@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+#main {	
+   width:350px; 
+   height:300px; 
+   margin:50px auto;
+   position:relative;	
+}
+#div1 {	
+   width:100%; 
+   height:29%; 
+   background-color:#999;
+   overflow:hidden;	
+}
+#logo {
+	width:20%;
+	height:80%;
+	position:relative;
+	top:8px;
+	left:-80px;
+	float:left;
+	background-image:url(logo.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	-webkit-animation: logo 16s infinite; /* Chrome, Safari, Opera */
+    animation: logo 16s infinite;
+}
+#title {
+	width:40%;
+	height:80%;
+	position:relative;
+	top:14px;
+	left:40px;
+	float:left;
+	font:20px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	line-height:0.5;
+}
+#season {
+	width:30%;
+	height:30%;
+	position:relative;
+	top:55px;
+	left:140px;
+	float:right;
+	background-image:url(autumn.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	-webkit-animation: season 16s infinite; /* Chrome, Safari, Opera */
+    animation: season 16s infinite;
+}
+#div2 {	
+   width:100%; 
+   height:60%; 
+   padding-top:3%;
+   background: -webkit-linear-gradient(#F22, #F77); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#F22, #F77); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#F22, #F77); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#F22, #F77); /* Standard syntax */;
+}
+#display {
+	width:100%;
+	height:38%;
+	position:relative;
+	top:0;
+	left:0;
+	opacity:0;
+	-webkit-animation: display 16s infinite; /* Chrome, Safari, Opera */
+    animation: display 16s infinite;
+}
+.displayLR {
+	width:50%;
+	height:100%;
+	float:left;
+	text-align:center;
+	font:13px Verdana, Geneva, sans-serif;
+	color:#fff;
+}
+.displayLR span {
+	font-size:16px;
+	font-weight:bold;
+}
+#moveUp1 {
+	width:100%;
+	height:31%;
+	position:relative;
+	left:0;
+	opacity:0;
+	-webkit-animation: moveUp1 16s infinite; /* Chrome, Safari, Opera */
+    animation: moveUp1 16s infinite;
+}
+#moveUp2 {
+	width:100%;
+	height:31%;
+	position:relative;
+	left:0;
+	opacity:0;
+	-webkit-animation: moveUp2 16s infinite; /* Chrome, Safari, Opera */
+    animation: moveUp2 16s infinite;
+}
+.moveUpLR {
+	width:50%;
+	height:100%;
+	float:left;
+	text-align:center;
+	font:13px Verdana, Geneva, sans-serif;
+	color:#fff;
+}
+.moveUpLR span {
+	font-size:14px;
+	font-weight:bold;
+}
+#div3 {	
+   width:100%; 
+   height:12%; 
+   background-color:#888;
+   overflow:hidden;
+}
+#scrollMsg {
+	height:96%;
+	width:3000%;
+	padding:2%;
+	position:relative;
+	top:0;
+	left:355px;
+	-webkit-animation: scroll 70s 0.5s infinite; /* Chrome, Safari, Opera */
+    animation: scroll 70s 0.5s infinite;
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    animation-timing-function: linear;
+}
+#scrollMsg a {
+	text-decoration:none;
+	color:#fff;
+	font:14px Verdana, Geneva, sans-serif;
+}
+#scrollMsg ul {
+	display:inline;
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#scrollMsg li {
+	display:inline;
+	background-image: url(circle-20.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px; 
+    padding-left: 14px; 
+}
+#scrollMsg:hover {
+  animation-play-state:paused;
+  -webkit-animation-play-state:paused;
+}
+#down_right {
+	width:66px;
+	height:66px;
+	background:none;
+	position:absolute;
+	bottom:-14px;
+	right:0;
+	overflow:hidden;
+}
+#green_circle {
+	width:50px;
+	height:44px;
+	box-shadow:-2px 2px 6px 0 #666;
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+	background:#090;
+	margin-top:8px;
+	margin-left:5px;
+	padding:5px;
+	padding-top:11px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	color:#EEE;
+	font:13px Tahoma, Geneva, sans-serif;
+	font-weight:200;
+	text-align:center;
+	line-height:14px;
+	letter-spacing:1px;
+}
+
